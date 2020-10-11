@@ -23,7 +23,7 @@ function App() {
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
     setInput("");
-  };
+  }; 
 
   useEffect(() => {
     db.collection("messages")
@@ -67,3 +67,5 @@ function App() {
 }
 
 export default App;
+
+// adding this to test
