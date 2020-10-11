@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.message {
+  color: white;
+  width: fit-content;
+  background-color: grey !important;
+  padding: 1% 1%;
+  margin: 2%;
+  color: white !important;
+
+
+}
+
+.message_current {
+  text-align: right !important;
+  width: fit-content;
+  padding: 1% 1%;
+  background-color: rgba(9, 106, 252, 0.87) !important;
+  color: white !important;
+  margin: 2% 2% 2% auto ;
+}
